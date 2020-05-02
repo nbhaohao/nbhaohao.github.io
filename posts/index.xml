@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ZZH Hugo Blog</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on ZZH Hugo Blog</description>
+    <title>Posts on ZZH 的博客</title>
+    <link>http://zhangzihao.cool/posts/</link>
+    <description>Recent content in Posts on ZZH 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 29 Apr 2020 19:43:23 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2020 10:01:22 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://zhangzihao.cool/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>我的第一篇博客</title>
-      <link>http://example.org/posts/my-first-post/</link>
-      <pubDate>Wed, 29 Apr 2020 19:43:23 +0800</pubDate>
+      <title>Hugo 搭建个人博客</title>
+      <link>http://zhangzihao.cool/posts/1-hugo-tutorial/</link>
+      <pubDate>Sat, 02 May 2020 10:01:22 +0800</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>我的 Hugo 博客开通啦！</description>
+      <guid>http://zhangzihao.cool/posts/1-hugo-tutorial/</guid>
+      <description>安装 Hugo Hugo 的官网文档非常好，只需要跟着 文档 的步骤，就可以在本地启动一个 Hugo 服务，看到自己站点的效果了。
+使用 github 解析 HTML 假如我们已经使用 Hugo 生成了一个 public 文件夹，那么我们可以把这个文件夹上传到 github 上，使用 Github Page 这项服务来让其他人可以访问到我们的博客。
+我们需要新建一个 &amp;lt;你的用户名&amp;gt;.github.io 仓库，然后在 Settings 中打开关于 GithubPages 的配置。
+我这里配置了域名，你应该可以看到 &amp;lt;你的用户名&amp;gt;.github.io 的地址，是可以访问了，比如我的是 nbhaohao.github.io
+域名配置 如果你有自己的域名，那么可以使用域名访问你的博客，域名需要配置 DNS 解析，可参考 Github文档
+配置完成后，应该和这个截图一样，有 4 条 A 记录。</description>
     </item>
     
   </channel>
